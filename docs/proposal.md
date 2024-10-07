@@ -135,4 +135,4 @@ In our comparative analysis of lightweight LLMs to larger models for the questio
 - [CySecBERT: A Domain-Adapted Language Model for the Cybersecurity Domain](https://dl.acm.org/doi/full/10.1145/3652594)
 - [LogQA: Question Answering in Unstructured Logs](https://arxiv.org/pdf/2303.11715)
 - [BERT Score](https://huggingface.co/spaces/evaluate-metric/bertscore)
-- []()
+- [Benchmarking Large Language Models for Log Analysis, Security, and Interpretation](https://  link-springer-com.libweb.lib.utsa.edu/article/10.1007/s10922-024-09831-x)
