@@ -4,7 +4,7 @@ title: SLLIM - System Log Local Intelligent Model
 theme: default
 paginate: true
 <!-- Open this presentation with MARP installed -->
-<!-- https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode -->
+<!-- marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode -->
 ---
 
 # SLLIM: System Log Local Intelligent Model
