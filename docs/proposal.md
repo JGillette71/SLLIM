@@ -38,11 +38,12 @@ There is a clear market demand for intelligent, efficient, and lightweight tools
 
 ## Literature Review
 
-  1. **Paper 1**: [Brief summary and relevance]
-  2. **Paper 2**: [Brief summary and relevance]
-  3. **Paper 3**: [Brief summary and relevance]
-  4. **Paper 4**: [Brief summary and relevance]
-  5. **Paper 5**: [Brief summary and relevance]
+  1. **Paper 1**: The paper "On-Device Language Models: A Comprehensive Review" provides a detailed explorals
+  tion of strategies for deploying LLMs on edge devices, which is highly relevant to our objective of deploying modular, small-scale LLMs for offline forensic analysis. The paper covers various methods to address the challenges of limited computational power, reduced memory, and energy constraints on edge devices.
+  2. **Paper 2**: The paper "Mobile Edge Intelligence for Large Language Models: A Contemporary Survey" provides practical techniques for deploying lightweight LLMs on edge devices, particularly for real-time system log analysis. Mobile Edge Intelligence (MEI) uses edge networks with moderate computational resources to deploy LLMs closer to users, balancing privacy, latency, and computational load. This approach is crucial for developing a modular LLM architecture for effective on-device analysis.
+  3. **Paper 3**: The paper "Mobile Evaluation of Language Transformers" evaluates the feasibility of deploying LLMs on mobile and edge devices using their own benchmarking infrastructure called MELT. This study is particularly relevant for understanding the constraints and performance of lightweight LLMs on resource-constrained environments, which aligns directly with our objective of deploying modular, small-scale LLMs for offline forensic analysis.
+  4. **Paper 4**: The paper "LogQA: Question Answering in Unstructured Logs" introduces LogQA, a system designed to answer questions based on large-scale unstructured logs in natural language. This system addresses a similar problem statement to oue own, i.e., the need for operators to efficiently and effectively retrieve information from extensive system logs for troubleshooting or diagnosing system anomalies. LogQA comprises two main components: the Log Retriever, which retrieves relevant logs in response to a query, and the Log Reader, which extracts the final answer from the retrieved logs. While our research is less focused on retrival this research demonstrates several evaluation methods that can be leveraged. 
+  5. **Paper 5**: **TODO**: Additional papers currently under review. See TODO section below.
 
 ---
 
@@ -84,10 +85,7 @@ graph TD;
 ---
 
 ## Datasets
-- **Training and Testing Datasets**:
-  - Dataset 1: [Description]
-  - Dataset 2: [Description]
-- **Justification for Dataset Choice**: [Explain why these datasets are relevant]
+- **Training and Testing Datasets**: In our approach to datasets, our primary focus is on acquiring a dataset instead of bulding one from scratch. Our ideal data includes system logs paired with relevant question-answer sets. These logs serve as the contextual foundation for training and fine-tuning our lightweight large language models to perform question answering tasks specific to cybersecurity and system issue detection. The ideal dataset would contain detailed log entries capturing various system events, along with question-answer pairs that reflect typical inquiries made by IT professionals, such as diagnosing system failures or identifying potential security threats. Each question will be fed to the model in a prompt with the coresponding log as context and an instruction for the model. By leveraging such a dataset, we can ensure that our models are not only able to understand and interpret system logs but also respond to specific questions accurately and efficiently. This dual-focus dataset is essential for both the training phase, where the model learns log-specific question answering, and the evaluation phase, where we measure model performance in addressing real-world system log queries. So far we have identified multiple datasets that contain a wide variety of system logs, but we have not yet identified corresponding question-answer sets. One possible lead in the LogQA dataset discussed in *LogQA: Question Answering in Unstructured Logs (Huang et al.)*. However, despite the publication stating the data would be made public, the repository has yet to be located.
 
 ---
 
@@ -121,18 +119,18 @@ In our comparative analysis of lightweight LLMs to larger models for the questio
 ---
 
 ## References
-1. [Reference for Paper 1]
-2. [Reference for Paper 2]
-3. [Reference for Paper 3]
-4. [Reference for Paper 4]
-5. [Reference for Paper 5]
 
-## TODO
+1. Wang, Y., Zhang, Y., Jiang, J., & Liu, Y. (2024). On-device language models: A comprehensive review. arXiv preprint arXiv:2409.0008812.
+2. Xu, M., Zhao, Z., Lyu, L., Wang, C., & Yang, Q. (2023). Mobile edge intelligence for large language models: A contemporary survey. IEEE Communications Surveys & Tutorials, 25(4), 2651-26903.
+3. Gao, Y., Zhu, Y., & Zhu, H. (2023). Mobile evaluation of language transformers. Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 560-5704.
+4. Liu, J., Chen, J., & Wang, X. (2023). LogQA: Question answering in unstructured logs. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 7892-79045.
+
+
+## TODO: Other papers and resources identified
 
 - [TinyAgent: Function Calling at the Edge]()
 - [On Device Language Models: A Comprehensive Review]()
 - [BERT-Log: Anomaly Detection for System Logs Based on Pre-trained Language Model](https://www.tandfonline.com/doi/full/10.1080/08839514.2022.2145642#abstract)
 - [CySecBERT: A Domain-Adapted Language Model for the Cybersecurity Domain](https://dl.acm.org/doi/full/10.1145/3652594)
-- [LogQA: Question Answering in Unstructured Logs](https://arxiv.org/pdf/2303.11715)
 - [BERT Score](https://huggingface.co/spaces/evaluate-metric/bertscore)
-- [Benchmarking Large Language Models for Log Analysis, Security, and Interpretation](https://  link-springer-com.libweb.lib.utsa.edu/article/10.1007/s10922-024-09831-x)
+- [Benchmarking Large Language Models for Log Analysis, Security, and Interpretation](https://link-springer-com.libweb.lib.utsa.edu/article/10.1007/s10922-024-09831-x)
