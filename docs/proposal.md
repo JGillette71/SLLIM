@@ -126,3 +126,13 @@ In our comparative analysis of lightweight LLMs to larger models for the questio
 3. [Reference for Paper 3]
 4. [Reference for Paper 4]
 5. [Reference for Paper 5]
+
+## TODO
+
+- [TinyAgent: Function Calling at the Edge]()
+- [On Device Language Models: A Comprehensive Review]()
+- [BERT-Log: Anomaly Detection for System Logs Based on Pre-trained Language Model](https://www.tandfonline.com/doi/full/10.1080/08839514.2022.2145642#abstract)
+- [CySecBERT: A Domain-Adapted Language Model for the Cybersecurity Domain](https://dl.acm.org/doi/full/10.1145/3652594)
+- [LogQA: Question Answering in Unstructured Logs](https://arxiv.org/pdf/2303.11715)
+- [BERT Score](https://huggingface.co/spaces/evaluate-metric/bertscore)
+- []()
