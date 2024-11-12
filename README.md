@@ -1,32 +1,8 @@
-# BigLogsTinyBrains
+# SLLIM: System Log Local Intelligent Model
 
-Big Logs Tiny Brains: Q&amp;A on Security Logs with Small Language Models
+This research explores the development and deployment of lightweight language models for question answering (QA) on cybersecurity logs, with a focus on resource-constrained environments like edge devices. In cybersecurity, rapid analysis of system logs is crucial for identifying and mitigating threats; however, traditional large language models are typically too resource-intensive for real-time or offline use in these environments. By leveraging techniques like model quantization, pruning, and modular architectures, this project aims to adapt LLMs for efficient, on-device deployment. The research evaluates these optimized models using benchmarks such as throughput, energy efficiency, and accuracy on QA tasks tailored to log analysis. This work not only advances practical applications in cybersecurity but also contributes to the broader NLP field by expanding the capabilities of LLMs for edge computing and offline forensic analysis.
 
-## Introduction
+## Project Structure
 
-## Literature Review
-
-## Data Analysis
-
-## Methodology 
-
-Rough data flow diagram...
-
-```mermaid
-graph TD;
-    A[Log Data] --> B[Embeddings];
-    B --> C[Model A];
-    B --> D[Model B];
-    C --> E[Q&A Set];
-    D --> E
-    E --> F[Output A];
-    E --> G[Output B];
-    F --> H[Evaluate A];
-    G --> I[Evaluate B];
-```
-
-## Results
-
-## Discussion
-
-## References 
+- assets: 
+- docs: 
