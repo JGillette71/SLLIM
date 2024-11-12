@@ -4,5 +4,8 @@ This research explores the development and deployment of lightweight language mo
 
 ## Project Structure
 
-- assets: 
-- docs: 
+- **`docs/`**: Contains research documentation, methodology, results, and references.
+- **`assets/`**: Stores images, logos, and diagrams for reports and presentations.
+- **`data/`**: Houses raw, processed, and sample data files.
+- **`src/`**: Contains source code, including scripts for preprocessing, model architecture, inference, and configuration.
+- **`analysis/`**: Holds analysis scripts for EDA, benchmarking, evaluation, and visualizations.
