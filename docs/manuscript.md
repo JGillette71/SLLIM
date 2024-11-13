@@ -6,7 +6,7 @@ author:
     email: jason.gillette@my.utsa.edu
   - name: Carlos Cruzportillo
     affiliation: University of Texas at San Antonio
-    email: author2@university.edu
+    email: carlos.cruzportillo@my.utsa.edu
   - name: Nassos Galiopoulos
     affiliation: University of Texas at San Antonio
     email: author2@university.edu
@@ -42,6 +42,8 @@ The challenge of deploying LLMs on edge devices has driven significant research 
 
 ### Question Answering on Unstructured Logs
 In "LogQA: Question Answering in Unstructured Logs," Huang et al. introduce a QA system specifically designed for extracting information from unstructured logs, an objective closely related to our own. The LogQA system comprises two main components: a Log Retriever, which identifies relevant logs in response to user queries, and a Log Reader, which extracts precise answers from these logs. Although our research focuses less on retrieval, the evaluation strategies presented by Huang et al., including exact match vs. similarity metrics and gold standard comparisons, offer valuable insights into measuring QA system performance. These metrics, along with the LogQA system architecture, serve as a foundation for developing effective QA solutions for cybersecurity logs [(Huang et al., 2024)](#huang2024).
+
+In "GLOSS: Guiding Large Language Models to Answer Questions from System Logs," Huang et al. present a novel approach to constructing log-based question-answering data using large language models. The system employs a three-step pipeline—question generation, log question answering, and QA pair refinement—to create high-quality QA pairs at scale. By leveraging ChatGPT, GLOSS generates LogQuAD, a comprehensive dataset containing over 28,000 question-answer pairs from more than 31,000 raw logs across 16 different system types—a 34-fold increase compared to existing datasets. Their evaluation demonstrates impressive accuracy with a 92% correctness rate for generated questions and 86% for answers. Through memory-efficient fine-tuning, their 7B parameter model outperforms larger models like LLaMA-65B in log-based QA tasks, while offering insights into template complexity and question type performance [(Huang et al., 2024)](#huang2024gloss).
 
 ## Data Analysis
 
@@ -81,3 +83,5 @@ Here are the updated references with links to each paper:
 - <a id="nguyen2024"></a>[Nguyen, T., Patel, A., & Gomez, C. (2024). Mobile Evaluation of Language Transformers. In *Proceedings of the 37th Annual ACM Symposium on Applied Computing* (pp. 912-921).](https://icml.cc/virtual/2024/39628)
 
 - <a id="huang2024"></a>[Huang, P., Lin, X., & Xu, D. (2024). LogQA: Question Answering in Unstructured Logs. In *Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing* (pp. 3782-3794).](https://arxiv.org/abs/2410.11845) 
+
+<a id="huang2024gloss"></a>Huang, S., Liu, Y., Qi, J., Shang, J., Xiao, Z., Fung, C., Wu, Z., Yang, H., Luan, Z., & Qian, D. (2024). GLOSS: Guiding Large Language Models to Answer Questions from System Logs. In 2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) (pp. 91-101). (https://ieeexplore.ieee.org/document/10589781).
