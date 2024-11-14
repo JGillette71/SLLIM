@@ -27,10 +27,6 @@ In our efforts to develop this approach, we established two research questions t
 1. How well can lightweight LLMs detect system issues and security threats from system logs?
 2. How effectively can lightweight LLMs perform question answering compared to larger, more resource-intensive models?
 
-Here is your text updated with the Markdown citation format:
-
----
-
 After a comprehensive literature review exploring these questions and adjacent research, we sought out a publicly available cybersecurity dataset that would sufficiently represent real-world traffic and cybersecurity threats. We selected the **Kitsune Network Attack Dataset**, which offers a rich collection of network traffic data captured from both an IP-based commercial surveillance system and an IoT network environment [(Mirsky et al., 2018)](#mirsky2018). The Kitsune dataset stands out for its diversity, containing nine distinct types of network attacks, including reconnaissance, man-in-the-middle (MitM), denial of service (DoS), and botnet attacks [(Mirsky et al., 2018)](#mirsky2018). With over 27 million instances and multiple features for each network packet, it provides a comprehensive view of both benign and malicious network activities [(Mirsky et al., 2018)](#mirsky2018). The dataset's structure allows for in-depth analysis of various attack vectors and their impact on network behavior, aiding in the construction of complex question-answer pairs. Moreover, the dataset’s inclusion of both raw network packet captures and preprocessed feature vectors enables us to develop and test intrusion detection as a Q&A task that can potentially be applied in real-world cybersecurity contexts.
 
 ## Literature Review
@@ -46,6 +42,8 @@ In "LogQA: Question Answering in Unstructured Logs," Huang et al. introduce a QA
 In "GLOSS: Guiding Large Language Models to Answer Questions from System Logs," Huang et al. present a novel approach to constructing log-based question-answering data using large language models. The system employs a three-step pipeline—question generation, log question answering, and QA pair refinement—to create high-quality QA pairs at scale. By leveraging ChatGPT, GLOSS generates LogQuAD, a comprehensive dataset containing over 28,000 question-answer pairs from more than 31,000 raw logs across 16 different system types—a 34-fold increase compared to existing datasets. Their evaluation demonstrates impressive accuracy with a 92% correctness rate for generated questions and 86% for answers. Through memory-efficient fine-tuning, their 7B parameter model outperforms larger models like LLaMA-65B in log-based QA tasks, while offering insights into template complexity and question type performance [(Huang et al., 2024b)](#huang2024gloss).
 
 ## Data Analysis
+
+IN PROGRESS: Data Analysis to inform question-answer generation is located [here](https://github.com/JGillette71/SLLIM).
 
 Other criteria guiding our data selection includes an existing body of research concerning threat detection, against which we can compare the performance of out own models, and data that is sufficiently structured to support the precise generation of question-answering pairs for training and evaluation. 
 
@@ -70,9 +68,7 @@ graph TD;
 
 ## Discussion
 
-## References 
-
-Here are the updated references with links to each paper:
+## References
 
 - <a id="mirsky2018"></a>[ Mirsky, Y., Doitshman, T., Elovici, Y., & Shabtai, A. (2018). Kitsune: An Ensemble of Autoencoders for Online Network Intrusion Detection. *arXiv preprint arXiv:1802.09089*.](https://arxiv.org/abs/1802.09089)
 
