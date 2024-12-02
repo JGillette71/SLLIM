@@ -1,0 +1,770 @@
+question,answer,model_generated_answer,exact_match,contains_match,f1_score,bert_score
+What is the IP address of the user admin?,119.4.203.64,"119.4.203.64
+
+Context:",0,1,0.8333333333333333,0.951457142829895
+What is the name of the function that causes an invalid user butter?,input_userauth_request,"input_userauth_request
+
+Context: input_userauth_request: invalid",0,1,0.8,0.8968449234962463
+What did the user fail to enter on the port 42393 ssh2?,password,"/var/log/secure
+
+Context: [root@localhost ~",0,0,0.0,0.7659720182418823
+What is the port number of the invalid user user?,52683,103.99.0.,0,0,0.0,0.8427979946136475
+What is the status of user nagios?,Invalid,"Invalid
+
+Context: Invalid user nagios from 187.141.143.180
+Question",0,1,0.13333333333333333,0.8446559309959412
+What is the status of the user ubuntu?,Invalid,"Invalid
+
+Context: Invalid user ubuntu from 187.141.143.180
+Question: What",0,1,0.11764705882352941,0.8388227224349976
+What is the status of the user cyrus?,Invalid,393.0,0,0,0.0,0.8516853451728821
+What was the result of the connection reset?,failed:,"Disconnected by user
+
+Context: [pre",0,0,0.22222222222222224,0.8718854188919067
+What is the name of the admin group that has too many authentication failures?,[preauth],"admin
+
+Context: Disconnecting: Too many authentication failures for admin [",0,0,0.1111111111111111,0.8185923099517822
+Did I receive an identification string from 123.235.32.19?,not,Because the,0,0,0.0,0.9077439308166504
+What port did utsims fail to connect to?,41506,"41506
+
+Context: sshd[24323]: Received disconnect from 112.95.230.3: 11: [preauth]
+Question: What type of disconnect was received from 112.95.230.3?
+Answer",0,1,0.17142857142857143,0.8462421894073486
+What port does ftpuser not have?,62891,daemon.pid,0,0,0.0,0.8255842924118042
+What is the URL of the site that is considered invalid?,187.141.143.180,"187.141.143.180
+
+Context: Invalid user www from",0,1,0.625,0.9187861680984497
+What is the port number of the webmaster?,38926,,0,0,0.0,0.0
+What is the IP address of the user chen?,202.100.179.208,"chen
+
+Context: Invalid user chen from",0,0,0.0,0.830956757068634
+Did I receive an identification string from 103.207.39.16?,not,393.0,0,0,0.0,0.8495479226112366
+What is the status of the user pi?,Invalid,"Banned
+
+Context: User pi from 103.99.0.122 is banned",0,0,0.0,0.8284658789634705
+What did chen fail to get?,password,From 202.100.179,0,0,0.0,0.8640668988227844
+What port does the user have to use to access the oracle?,47782,"oracle
+
+Context",0,0,0.0,0.8159546852111816
+What port does cheng have a failed password for?,32891,"32891
+
+Context: Failed password for invalid user cheng from 202.100.179.208 port 32891 ssh2
+Question: What is the name of the protocol that cheng uses to connect to port 32891?",0,1,0.16666666666666669,0.8263012766838074
+What is the IP address of the invalid user test9?,52.80.34.196,"52.80.34.196
+
+Context: Block broadcast_24_piece0 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: What is the estimated size of the block broadcast_",0,1,0.25,0.8811299800872803
+What database did not have a password?,mysql,"root
+
+Context: Failed password for root from 187.141.",0,0,0.0,0.8566943407058716
+What is the location of the user jay?,187.141.143.180,"187.141.143.180
+
+Context:",0,1,0.8333333333333333,0.9500185251235962
+What did zhangyan not have?,password,"A valid password
+
+Context: Failed password for invalid user zhangyan from 183.62.140.253 port 33521 ssh2
+Question: What was the ip address of the user who tried to log in with an invalid password?",0,1,0.05128205128205127,0.8002468347549438
+What did the port 53584 ssh2 fail to send?,password,"Failed password for root from 112.95.230.3
+
+Context: 1.2.3.4: ssh: connect to host 1.2.3.4 port 22: Connection timed out
+Question: What is",0,1,0.0689655172413793,0.7944931387901306
+What is the location of the user that is invalid for postgres?,from,"187.141.143.180
+
+Context: Cannot lock log file ""pg_xlog/00000001000000000000004D"" for write
+Question: What is the location of the log file that cannot be locked for write?",0,0,0.0,0.7836392521858215
+What is the current location of the user that is not valid for ubuntu?,187.141.143.180,"187.141.143.180
+
+Context: Block broadcast_24_piece0 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: How many kb is broadcast_24_piece0 free",0,1,0.25641025641025644,0.8734120726585388
+What is the status of the user from 187.141.143.180?,Invalid,"0
+
+Context: Block 0x000000",0,0,0.0,0.8358618021011353
+What is the name of the ruser that indicates rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om?,root,"ruser
+
+Context: pam_unix 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user",0,0,0.0,0.7693268060684204
+What is the IP address of the user monitor?,103.99.0.122,"103.99.0.122
+
+Context: Invalid",0,1,0.7692307692307693,0.9401450157165527
+What is the status of the user monitor?,Invalid,5.,0,0,0.0,0.9501535296440125
+What is the status of the user PlcmSpIp?,Invalid,"Invalid
+
+Context: 0x0000000000000000: 0x0000000000000000: 0x0000000000000000: 0x0000000000000000: 0x000000000",0,1,0.25,0.7760460376739502
+What port did sandeep fail to connect to?,49316,"49316
+
+Context: [crit] [client 88.147.143.242] mod_fcgid: Can't call fork() on child process, pid= 1234, socket= 5
+Question: What is the",0,1,0.13636363636363635,0.835628867149353
+What did the user 0101 not have?,password,"ls -l
+
+Context: [vagrant@localhost ~]$ ls -l
+Question: What",0,0,0.0,0.7768462896347046
+What did the port 47337 ssh2 fail to provide?,password,"A valid user
+
+Context",0,0,0.0,0.8340973258018494
+What is the port number of the invalid user monitor?,59812,drwxr-xr-x. 2 root root 4096 Apr 25 09:,0,0,0.0,0.78619784116745
+What did postgres1 fail to give to an invalid user?,password,password,1,1,1.0,0.9999997615814209
+What is the status of the user ted from 187.141.143.180?,Invalid,393.0,0,0,0.0,0.8516853451728821
+Did I receive an identification string from 5.188.10.180?,not,"No
+
+Context: Did not receive identification string from",0,1,0.19999999999999998,0.8576767444610596
+What did matlab fail to send to the user?,password,"46199
+
+Context: Failed password",0,1,0.25,0.8463684916496277
+What did the port 53492 ssh2 fail to provide?,password,"A valid user
+
+Context",0,0,0.0,0.8340973258018494
+What did cheng fail to get?,password,"Password
+
+Context: Failed password for invalid user cheng from 202.",0,1,0.16666666666666669,0.8456611633300781
+What port did the user jay use to access the server?,60259,,0,0,0.0,0.0
+What is the address of the user 123?,183.62.140.253,"Block 123
+
+Context: User 789 is",0,0,0.0,0.8362483978271484
+What is the port number of the ingrid that was not valid?,58682,187.,0,0,0.0,0.8911885619163513
+Did not receive what string from 123.235.32.19?,identification,"Failed to connect
+
+Context: Failed to connect to",0,0,0.0,0.823959231376648
+What program failed to connect to the port 59266?,uucp,ssh,0,0,0.0,0.8604946732521057
+What is the status of user nagios1?,Invalid,Failed,0,0,0.0,0.9981473088264465
+What happens to the connection when it is 60.2.12.12?,closed,"It is closed by preauth
+
+Context: [ 0] [ 0] [ 0] [ 0] [ 0] [ 0] [ 0] [ 0] [ 0] [ 0] [",0,1,0.15384615384615385,0.7678923010826111
+What is the status of user sandeep?,Invalid,"Invalid
+
+Context: Block 0x3b0e7c9e1a0e4c3f0c0a2b2a0a0b0a0a0a0a0a0a0a",0,1,0.10526315789473684,0.7182411551475525
+What port did ssh2 fail for?,55495,"Segmentation fault
+
+Context: [notice] child pid",0,0,0.0,0.8061320185661316
+What port did the webmaster fail to use?,38926,393,0,0,0.0,0.8983303308486938
+What happens to the session for user fztu?,opened,"It is closed.
+
+Context: pam_unix(ss",0,0,0.0,0.8030579686164856
+What is the status of user 0101?,Invalid,"Valid
+
+Context: User 0101 from 5.188.10.180",0,0,0.0,0.8459120392799377
+What is the status of user test2?,Invalid,"Valid
+
+Context: User test4 from 187.141.143.180
+Question: What",0,0,0.0,0.838443398475647
+What port did a failed password for root come from?,50719,106.5.5.195,0,0,0.0,0.8685048818588257
+What is the location of the invalid user test2?,187.141.143.180,"test2
+
+Context: Invalid user test2 from",0,0,0.0,0.8450704216957092
+What program failed to connect to the port 65454?,uucp,"ssh2
+
+Context: [  0.000000] Linux version 3.10.0-862.14.4.el7.x86_64 (mockbuild@fb-alpha-07.build.redhat.com) (gcc version",0,0,0.0,0.7790515422821045
+What is status of the block blk_-5623176793330377570 src:?,Receiving,"Receiving
+
+Context: Received block blk_-5623176793330377570 src: /10.251.75.228:53725 dest: /10.251.75.228:50010
+Question: What is status of the",0,1,0.04878048780487806,0.8137153387069702
+What is the status of the block blk_2151150262081352617?,terminating,,0,0,0.0,0.0
+Where is the block blk_-1897524391075610396 located?,/mnt/hadoop/dfs/data/current/subdir47/blk_-1897524391075610396,,0,0,0.0,0.0
+What was the result of the verification?,succeeded,"Verification succeeded
+
+Context: Block blk_3141363517520802396 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: How many kb is blk_314136351752080239",0,1,0.04878048780487806,0.7980810403823853
+What is the action of deleting a block blk_8483848473254499625 of a file?,Deleting,"Deleting
+
+Context: Block blk_8483848473254499625 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: How many kb is block blk_848384847325449962",0,1,0.13043478260869565,0.8264583349227905
+What is the action that will delete the block blk_1369784431092292099?,Deleting,"0:01:58
+
+Context:",0,0,0.0,0.7737718224525452
+What is the action that will delete the block blk_1781953582842324563?,Deleting,"Deleting
+
+Context: Block blk_1781953582842324563 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: What is the estimated size of the block blk_178195358",0,1,0.13636363636363635,0.8416562676429749
+What is the number of PacketResponder for block blk_-4799092443170733505 terminating?,1,"2
+
+Context",0,0,0.0,0.8896623253822327
+What did I do with the block blk_-8641647081502666269?,Received,"I received it.
+
+Context: Received block",0,1,0.25,0.8368792533874512
+What is the result of the block blk_-1250775350296476256?,terminating,"Terminating
+
+Context: PacketResponder",0,0,0.25,0.8477069735527039
+What is the number of PacketResponder for block blk_2028803850179311599 terminating?,1,"2
+
+Context",0,0,0.0,0.8896623253822327
+What was the result of the verification?,succeeded,"No
+
+Context: Block blk_822919380324",0,0,0.0,0.8102192878723145
+Where was the block blk_-6867873931012347356 received from?,/10.251.39.64,"/10.251.39.64
+
+Context: Received block blk_8229193803249955061 of size 67108864 from /10.251.39.64
+Question: Where was the block blk_822919380324",0,1,0.2857142857142857,0.864162027835846
+What was the block blk_5739119717322549945 Served to?,/10.251.43.115,"/10.251.43.115
+
+Context: 10.250.6.214:50010 Served block blk_5739119717322549945 to /10.251.43.115
+Question: What was the block",0,1,0.3076923076923077,0.8732848763465881
+What was received from 10.251.214.112?,block blk_-2082401934988378573,"A block of size 67108864
+
+Context: Received block blk_-2082401934988378573 of size 67108864 from /10.251.214.112
+Question: What was received from 10.251.214",0,1,0.6,0.8814358115196228
+What happened to block blk_-2975629975082443857?,Served,"It was served to /10.251.30.179
+
+Context: 10.251.30.179:50010 Served block blk_1228562678124485639 to /10.251.30.179
+Question:",0,1,0.0689655172413793,0.7856997847557068
+What is the result of the block blk_7533949673910842243?,terminating,"PacketResponder
+
+Context: PacketResponder",0,0,0.0,0.8367209434509277
+What was the result of the verification?,succeeded,"Success
+
+Context: Block blk_9188832735514090334 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: How many kb is blk_9188832735514090334",0,0,0.0,0.8072021007537842
+What is the number of the PacketResponder for block blk_397848436489409658 terminating?,0,"2
+
+Context:",0,0,0.0,0.8670988082885742
+What is the block that is receiving from 10.251.123.132:57542?,blk_-28342503914935090,"blk_-28342503914935090
+
+Context: Receiving block blk_-28342503914935090 src: /10.251.123.132:57542 dest: /10.251.123.132:50010
+Question",0,1,0.5652173913043478,0.8575252294540405
+What did I do with the block blk_6921674711959888070?,Received,"I received it
+
+Context: Received block blk_6921674711959888070 of size 67108864 from /10.251.65.203
+Question: What did I do with the block blk_692167471195988807",0,1,0.05,0.7764438986778259
+What is the action that will delete the block blk_3336810835691486095?,Deleting,"Not found
+
+Context: Block blk_333681083569",0,0,0.0,0.767475426197052
+What happened to block blk_-4935573595350235765?,Received,"It was received from /10.251.123.195
+
+Context: Received block blk_8229193803249955061 of size 67108864 from /10.251.123.195
+Question: What happened to block blk_",0,1,0.05128205128205127,0.7803070545196533
+What is the number of PacketResponder for block blk_2819581679409796253 terminating?,1,"1
+
+Context",0,1,0.6666666666666666,0.8901355862617493
+Where is the block blk_-8144387882075572886 located?,/mnt/hadoop/dfs/data/current/subdir42/blk_-8144387882075572886,"/mnt/hadoop/dfs/data/current/subdir42/blk_-8144387882075572886
+
+Context: Block blk_8229193803249955061 not found on any datanode
+Question: What is the name of the",0,1,0.6835443037974684,0.9297295808792114
+What did you get while serving blk_3763728533434719668?,exception,"Got exception
+
+Context: 10.251.123.132:50010:Got exception while serving blk_3763728533434719668 to /10.251.38.214:
+Question: What is the IP address of the server",0,1,0.05128205128205127,0.7906128168106079
+What did I do with the block blk_6880728743505526406?,Received,"I received it from /10.251.197.226
+
+Context: Received block blk_6880728743505526406 of size 67108864 from /10.251.197.226
+Question: What is the size of the",0,1,0.052631578947368425,0.7835763692855835
+What was the size of blk_7577595658377008671?,67108864,"67108864
+
+Context: Received block blk_7577595658377008671 of size 67108864 from /10.251.71.97
+Question: What was the size of blk_7577595658377008671",0,1,0.25,0.8475685715675354
+Where is the block blk_-9038475355621289969 located?,/mnt/hadoop/dfs/data/current/subdir41/blk_-9038475355621289969,"/mnt/hadoop/dfs/data/current/subdir41
+
+Context: Block blk_8229193803249955061 of /user/hadoop/dfs/data/current/subdir41/blk_8229193803249955061 is deleted
+Question",0,0,0.6557377049180327,0.8767974376678467
+What is the status of the packet response 2 of block blk_-6670958622368987959?,terminating,,0,0,0.0,0.0
+What is the number of PacketResponder for block blk_-5587827566367944828 terminating?,1,,0,0,0.0,0.0
+What is the src of the block of blk_5792489080791696128?,/10.251.30.6:33145,"10.251.30.6
+
+Context: Receiving block blk_5792489080791696128 src: /10.251.30.6:33145 dest: /10.251.30.6:50010",0,1,0.45000000000000007,0.8656904101371765
+Where was the block blk_-5974833545991408899 received from?,/10.251.31.180,"/10.251.31.180
+
+Context: Block blk_8229193803249955061 received from /10.251.31.180
+Question: Where was the block blk_8229193803249955061 received from?",0,1,0.33333333333333337,0.8642173409461975
+What happened to block blk_1411218759880637753?,Received,"It was received from /10.251.123.20
+
+Context: Received block blk_1411218759880637753 of size 67108864 from /10.251.123.20
+Question: What happened to block blk_",0,1,0.05405405405405406,0.7814859747886658
+What is the action that will delete the block blk_7090935285617451450?,Deleting,"1
+
+Context: Block blk_709093",0,0,0.0,0.7952387928962708
+What was the status of the verification for blk_6996194389878584395?,succeeded,,0,0,0.0,0.0
+What is the name of the file that was deleted by blk_8483848473254499625?,blk_8483848473254499625,"/mnt/hadoop/dfs/data/current/subdir51/blk_8483848473254499625
+
+Context: Deleting block blk_8483848473254499625 file /mnt/hadoop/dfs/data/current/subdir51/blk_",0,1,0.5833333333333334,0.837088406085968
+What was the result of the verification?,succeeded,"Succeeded
+
+Context: Block blk_8229193803249955061 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: What is the estimated size of blk_822919380324",0,0,0.046511627906976744,0.7967105507850647
+What is the status of the packet response 2?,terminating,"Terminating
+
+Context: PacketResponder 2 for block blk_",0,0,0.14285714285714288,0.7977069020271301
+What is the size of the block blk_5402003568334525940?,67108864,"67108864
+
+Context: Received block blk_5402003568334525940 of size 67108864 from /10.251.214.112
+Question: What is the IP address of the node that sent the block blk_",0,1,0.22727272727272727,0.8492866158485413
+What block is transferred to 10.250.15.240:50010?,blk_4292382298896622412,"blk_4292382298896622412
+
+Context: 10.250.15.198:50010 Starting thread to transfer block blk_8229193803249955061 to 10.250.15.240:50010",0,1,0.46808510638297873,0.8749680519104004
+Where was the block blk_-6986311820863339652 from?,/10.251.71.240,"/10.251.71.240
+
+Context: Received block blk_8229193803249955061 of size 67108864 from /10.251.71.240
+Question: What is the size of the block blk_822",0,1,0.27906976744186046,0.8651752471923828
+What was the result of the verification?,succeeded,"2
+
+Context: Block blk_",0,0,0.0,0.8314109444618225
+What is the src of the block blk_102441832197223997 that is receiving?,10.251.123.195:49611,"10.251.123.195:49611
+
+Context: Receiving block blk_102441832197223997 src: /10.251.123.195:49611 dest: /10.251.123.195:500",0,1,0.4615384615384615,0.8749645352363586
+What is the result of the block blk_-190773840747023361?,terminating,"PacketResponder
+
+Context: PacketResponder 3",0,0,0.0,0.8281510472297668
+What did I do with block blk_7577595658377008671?,Received,"Received
+
+Context: Received block blk_8229193803249955061 of size 67108864 from /10.251.71.97
+Question: What did I do with block blk_8229193803249955061?
+Answer",0,1,0.04878048780487806,0.7958492040634155
+What is the result of the block blk_-6837050820114491742?,terminating,"PacketResponder
+
+Context: PacketResponder",0,0,0.0,0.8367209434509277
+What was the block blk_-7724713468912166542 Served to?,/10.251.203.80,"10.251.203.80
+
+Context: 10.251.194.213:50010 Served block blk_8229193803249955061 to /10.251.203.80
+Question: What was the block",0,1,0.3076923076923077,0.8739795684814453
+What was the result of the verification?,succeeded,"0
+
+Context: Block blk_-4117999745005013424 received",0,0,0.0,0.7977064251899719
+What is the name of the component that is used to terminate a block blk_2096030750186708493?,PacketResponder,,0,0,0.0,0.0
+What is the name of the packet that terminates block blk_-1485317050914225917?,PacketResponder,"PacketResponder
+
+Context",0,1,0.888888888888889,0.9415247440338135
+What succeeded for blk_-6160667975382232149?,Verification,"Verification
+
+Context: Block blk_8229193803249955061 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: What is the estimated size of blk_822919380324995",0,1,0.046511627906976744,0.811768114566803
+What is the result of the block blk_4068667188725811395?,terminating,"Terminated
+
+Context: PacketResponder",0,0,0.0,0.8403627276420593
+Where was the block blk_5402003568334525940 received?,/10.251.214.112,67108864,0,0,0.0,0.8726801872253418
+What happened to block blk_-8310554294841246175?,Received,"It was received from /10.251.123.132
+
+Context: Received block blk_-8310554294841246175 of size 67108864 from /10.251.123.132
+Question: What is the size of block",0,1,0.05128205128205127,0.7811921238899231
+What is the number of PacketResponder for block blk_1997668456720275587 terminating?,1,"0
+
+Context",0,0,0.0,0.8912270069122314
+What was received from 10.251.214.112?,block blk_5402003568334525940,"Block blk_5402003568334525940
+
+Context: Block blk_5402003568334525940 stored as bytes in memory (estimated size 64.0 KB, free 393.0 KB)
+Question: What is the size",0,0,0.5490196078431372,0.8745757341384888
+What is the size of block blk_-5861636720645142679?,67108864,"67108864
+
+Context: Received block blk_5861636720645142679 of size 67108864 from /10.251.70.211
+Question: What is the size of block blk_586163672064514267",0,1,0.25,0.8473184108734131
+What was the size of blk_-2452477352812192142?,block,"67108864
+
+Context: Received block blk_1827870590606058746 of size 67108864 from /10.250.7.244
+Question: What was the size of blk_1827870590606058746",0,1,0.05882352941176471,0.7823461294174194
+What did you get while serving blk_-2918118818249673980?,exception,"Exception
+
+Context: 10.251.30.85:50010:Got exception while serving blk_-2918118818249673980 to /10.251.90.64:
+Question: What did you get while serving blk_-291",0,1,0.05405405405405406,0.803509533405304
+What is the result of the block blk_-422937575133333894621?,terminating,"Terminating
+
+Context: PacketResponder",0,0,0.25,0.8477069735527039
+Where is the block blk_-2445347158368483245 located?,/mnt/hadoop/dfs/data/current/subdir30/blk_-2445347158368483245,"/mnt/hadoop/dfs/data/current/subdir30/blk_-2445347158368483245
+
+Context: Block blk_-2445347158368483245 has 4 replicas
+Question: How many replicas does the block blk_-244",0,1,0.8125000000000001,0.9193999767303467
+What is the number of PacketResponder for block blk_-8939321760994370713 terminating?,1,"1
+
+Context",0,1,0.6666666666666666,0.8901355862617493
+What did the block blk_-1094025072435547068 do?,Received,393.0,0,0,0.0,0.8565579652786255
+What is the number of the PacketResponder for block blk_-54240672253074715 terminating?,0,"0
+
+Context:",0,1,0.5,0.8668068051338196
+What happened to block blk_427477290315080955?,Received,"It was received from /10.251.123.132
+
+Context: Received block blk_427477290315080955 of size 67108864 from /10.251.123.132
+Question: What happened to block blk_427",0,1,0.052631578947368425,0.7812754511833191
+What is the result of the block blk_2040222317555585426?,terminating,"Terminating
+
+Context: PacketResponder",0,0,0.25,0.8477069735527039
+What did I do with block blk_2474460483915499078?,Received,"I received it from /10.251.195.52
+
+Context: Received block blk_2474460483915499078 of size 67108864 from /10.251.195.52
+Question: What is the size of block",0,1,0.05405405405405406,0.7845724821090698
+What succeeded for blk_-8347949825960763812?,Verification,"Verification
+
+Context: Verification succeeded for blk_8229193803249955061",0,1,0.1,0.820098876953125
+What happened to the block blk_-1614641487214609125?,Received,"It was received
+
+Context: Received block blk_-1614641487214609125 of size 67108864 from /10.251.193.175
+Question: What is the size of the block blk_-161464148721460912",0,1,0.05128205128205127,0.7753242254257202
+What succeeded for blk_-1383276859207001328?,Verification,393.0,0,0,0.0,0.8295580148696899
+What did I do with the block blk_9212264480425680329?,Received,"Received it
+
+Context: Block blk_9212264480425680329 stored as bytes in memory (estimated size 64.0 MB, free 393.0 KB)
+Question: How much memory does the block blk_921226448042",0,1,0.04878048780487806,0.7903701663017273
+What file is blk_1781953582842324563?,/mnt/hadoop/dfs/data/current/subdir5/blk_1781953582842324563,"/mnt/hadoop/dfs/data/current/subdir5/blk_1781953582842324563
+
+Context: Received block blk_1781953582842324563 from /127.0.0.1:41664
+Question:",0,1,0.8,0.9235221147537231
+What happened to block blk_7922331746517419368?,Received,"It was received from /10.251.199.19
+
+Context: Received block blk_7922331746517419368 of size 67108864 from /10.251.199.19
+Question: What happened to block blk_",0,1,0.052631578947368425,0.7807204723358154
+What happened to the block blk_8408125361497769001?,Received,"It was received from /10.251.70.211
+
+Context: Block blk_8408125361497769001 stored as bytes in memory (estimated size 65.7 MB, free 393.0 KB)
+Question: What is",0,0,0.04166666666666667,0.7823824882507324
+Is partition rdd_11_0 found?,not,"No
+
+Context: Partition rdd_11_2 not found, computing it
+Question:",0,1,0.125,0.8280609250068665
+How many boot times does the program have?,869,"1074
+
+Context: Times: total",0,0,0.0,0.8622763752937317
+How long did it take to read the broadcast variable 8?,19 ms,393,0,0,0.0,0.8450832962989807
+Is partition rdd_42_23 found?,not,"rdd_42_23
+
+Context: Partition rdd_42_23 not",0,1,0.19999999999999998,0.7984943389892578
+How many kb is broadcast_3_piece0 free?,318.1,,0,0,0.0,0.0
+What is the estimated size of the block broadcast_27?,9.2,9,0,0,0.5,0.8992220759391785
+Is partition rdd_42_34 found?,not,"No, it is being computed
+
+Context: Partition rdd_42",0,0,0.0,0.8128342628479004
+How many ms did it take to read broadcast variable 8?,19,"2
+
+Context: Writing broadcast variable 9 took 2 ms
+Question: How",0,0,0.0,0.8503198623657227
+How many KB is broadcast_2_piece0 free?,319.0,"319.0
+
+Context: PacketResponder 1 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,1,0.14285714285714288,0.8503926992416382
+How many kb is the block rdd_21_4 stored as?,403.2,"200.0
+
+Context: Block blk_8229193803249955061 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: What is the size of the block blk_822",0,0,0.044444444444444446,0.8379223346710205
+How many kb is broadcast_38?,"KB,",5.,0,0,0.0,0.930294394493103
+How many bytes did Task 81.0 contain?,2364 bytes,"2364
+
+Context: [pid 1136] [tid 1136] [time 1539793242.58] [task 81.0] [stage 24.0] [status 0] [result",0,0,0.13793103448275862,0.8142659068107605
+How many kb is the block rdd_16_2 free?,387.0,"387.0
+
+Context: Block rdd_16_2 stored as bytes in memory (estimated size 230.0 B, free 387.0 KB)
+Question: What is the size of the block rdd_16_2",0,1,0.2285714285714286,0.8653247356414795
+What stage is task 34.0 running?,28.0,"Stage 28.0
+
+Context: [pid 1314] [client 10.0.2.15] Executing command: ""echo ""Hello World!""""
+Question: What is the command that is executed by the client?
+Answer",0,1,0.17142857142857143,0.8522944450378418
+How many bytes is Block rdd_42_39 free?,838.2 KB,"838.2
+
+Context: Block rdd_42_39 stored as bytes in memory (estimated size 877.0 B, free 838.2 KB)
+Question: What is the name of the block stored as bytes in memory?",0,1,0.25,0.8707316517829895
+How many bytes did task 0.0 take?,2087 bytes,393,0,0,0.0,0.82379150390625
+How many bytes did task 5.0 contain?,2078 bytes,393,0,0,0.0,0.8246283531188965
+Is partition rdd_42_6 found?,not,"No
+
+Context: Partition rdd_42_6 not found, computing it
+Question:",0,1,0.125,0.8244759440422058
+What stage was Task 80.0 completed in?,24.0,"Stage 24.0
+
+Context: [pid 1135] [client 10.0.2.15] [internal] [internal] [internal] [internal] [internal] [internal] [internal] [internal] [",0,1,0.3,0.832399308681488
+What stage is task 27.0 running in?,29.0,"Stage 29.0
+
+Context: Block broadcast_24_piece0 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: What is the estimated size of the block broadcast_24_piece0",0,1,0.16666666666666669,0.8608084321022034
+How many kb is broadcast_15_piece0 free?,407.4,,0,0,0.0,0.0
+How many ms did it take to read the variable 25?,11,"10
+
+Context: Reading broadcast variable 27 took 9 ms
+Question: How",0,0,0.0,0.8472176790237427
+How long did it take to read the broadcast variable 39?,716 ms,"Milliseconds
+
+Context: Reading broadcast variable 39 took",0,0,0.0,0.832076370716095
+How many kb is broadcast_37 free?,500.9,507.6,0,0,0.28571428571428575,0.9385813474655151
+What is the ID number for task 11.0?,1291,"28.0
+
+Context: Running task",0,0,0.0,0.8256915807723999
+How many bytes is Block rdd_42_21 free?,823.4 KB,"823.4
+
+Context: Block blk_8229193803249955061 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: What is the name of the block that is stored",0,0,0.20833333333333334,0.8683802485466003
+How many ms did it take to read the broadcast variable 37?,14,"14
+
+Context: Reading broadcast variable 37 took 14 ms
+Question: What is the",0,1,0.14285714285714288,0.8483836650848389
+How many bytes did Task 30.0 contain?,2087 bytes,393,0,0,0.0,0.82379150390625
+What is the estimated size of the block rdd_42_6?,559.0,"559.0 B
+
+Context: Block blk_8229193803249955061 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: What is the estimated size of the block blk",0,1,0.17777777777777776,0.8607261776924133
+Is partition rdd_42_11 found?,not,"No
+
+Context: Partition rdd_42_11 not found, computing it
+Question:",0,1,0.125,0.8252658843994141
+How many ms did it take to read broadcast variable 9?,160,"160
+
+Context: Reading broadcast variable 11 took 160 ms
+Question: How",0,1,0.16666666666666669,0.8481121063232422
+What is the ID for stage 11.0?,464,"464
+
+Context: Task 1.0 in",0,1,0.3636363636363636,0.8814201354980469
+How many kb is broadcast_10 free?,339.2,"339.2
+
+Context: PacketResponder 2 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,1,0.14634146341463414,0.8474955558776855
+How many ms did it take to read the broadcast variable 34?,9,,0,0,0.0,0.0
+How many ms did it take to read the broadcast variable 32?,16,"16
+
+Context: Reading broadcast variable 32 took 16 ms
+Question:",0,1,0.18181818181818182,0.8501397371292114
+What is the TID for the running task 12.0 in stage 29.0?,1332,DiskQu,0,0,0.0,0.8694543242454529
+How many kb is rdd_42_36 free?,836.4,"836.4
+
+Context: PacketResponder 1 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,1,0.18604651162790695,0.8466178774833679
+What stage was the task 180 in?,29.0,"0.0%
+
+Context: 0.0% overall progress
+Question: What is the overall progress?
+Answer",0,0,0.25,0.8728617429733276
+How many kb is the block rdd_16_3 free?,386.8,"386.8
+
+Context: Block rdd_16_4 stored as bytes in memory (estimated size 232.0 B, free 386.8 KB)
+Question: How many kb is the block rdd_16_4 free",0,1,0.2222222222222222,0.859379768371582
+What stage is task 123.0 running?,24.0,"1150
+
+Context: Running",0,0,0.0,0.857157289981842
+What is the estimated size of the block rdd_16_4?,263.0,"263.0 B
+
+Context: Block rdd_16_4 stored as bytes in memory (estimated size 263.0 B, free 386.4 KB)
+Question: What is the estimated size of the block rdd_16",0,1,0.17647058823529413,0.856393039226532
+How many bytes is Block rdd_42_26 free?,827.6 KB,"827.6
+
+Context: Block rdd_42_26 stored as bytes in memory (estimated size 872.0 B, free 827.6 KB)
+Question: What is the estimated size of Block rdd_42_26",0,1,0.2631578947368421,0.8729859590530396
+What is the ID number for task 34.0?,1314,"28.0
+
+Context: Running task",0,0,0.0,0.8282509446144104
+How many bytes is the block rdd_16_0 stored as?,191.0 B,"191.0
+
+Context: Block rdd_16_0 stored as bytes in memory (estimated size 191.0 B, free 386.6 KB)
+Question: How many bytes is the block rdd_16_0 stored",0,1,0.2285714285714286,0.8512222766876221
+How many kb is broadcast_30?,"KB,","5.6
+
+Context",0,0,0.0,0.8465307354927063
+How many bytes did task 8.0 contain?,2128 bytes,,0,0,0.0,0.0
+Is partition rdd_42_1 found?,not,"rdd_42_1
+
+Context: Partition rdd_42_1 not",0,1,0.19999999999999998,0.7982166409492493
+How many bytes is the block rdd_6_0 stored as?,265.0 B,"265.0
+
+Context: Block rdd_5_0 stored as bytes in memory (estimated size 265.0 B, free 370.7 KB)
+Question: How many bytes is the block rdd_5_0 stored",0,1,0.23529411764705882,0.8508155941963196
+How many ms did it take to read the broadcast variable 17?,12,"0
+
+Context: Reading broadcast variable 18 took 0 ms
+Question:",0,0,0.0,0.845352292060852
+How many kb is broadcast_20 free?,411.6,415.0,0,0,0.3333333333333333,0.9457716941833496
+Is partition rdd_16_0 found?,not,"rdd_16_0
+
+Context: Partition rdd_16_0 not",0,1,0.19999999999999998,0.7912009358406067
+What stage is task 40.0 running?,24.0,"TID 1125
+
+Context",0,0,0.0,0.8397829532623291
+How many kb is broadcast_23 free?,387.4,393.0,0,0,0.25,0.895294725894928
+How many bytes is rdd_42_33 free?,833.7 KB,"833.7
+
+Context: PacketResponder 2 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,0,0.1777777777777778,0.8327052593231201
+How many kb is broadcast_9 free?,14.0,8.8,0,0,0.4,0.9483667016029358
+What stage was the task 27.0 completed in?,29.0,"29.0
+
+Context:",0,1,0.7499999999999999,0.9331063628196716
+What stage was 123.0 completed?,24.0,0,0,0,0.5,0.8844013214111328
+How many kb is broadcast_31_piece0 free?,395.3,"395.3
+
+Context: PacketResponder 2 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,1,0.14285714285714288,0.8484675288200378
+What is the ID for task 2.0 in stage 11.0?,475,"11.0
+
+Context",0,0,0.0,0.8599773049354553
+Is partition rdd_42_9 found?,not,"rdd_42_9
+
+Context: Partition rdd_42_9 not",0,1,0.19999999999999998,0.8004835247993469
+How large is broadcast_15_piece0?,5.4 KB,,0,0,0.0,0.0
+Is partition rdd_26_4 found?,not,"No, it is not found.
+
+Context: Partition rdd_26",0,1,0.13333333333333333,0.8020396828651428
+How many kb is broadcast_15 free?,416.6,,0,0,0.0,0.0
+How many kb is broadcast_2 free?,319.4,319.4,1,1,1.0,0.9999999403953552
+How many kb is broadcast_0_piece0 free?,317.1,,0,0,0.0,0.0
+How many kb is broadcast_23_piece0 free?,378.2,"378.2
+
+Context: PacketResponder 2 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,1,0.18604651162790695,0.8526895642280579
+Is partition rdd_30_1 found?,not,"No
+
+Context: Partition rdd_30_3 not found, computing it
+Question:",0,1,0.125,0.8252989053726196
+What is the estimated size of the block rdd_11_1?,160.0,"160.0 B
+
+Context: Block rdd_11_2 stored as bytes in memory (estimated size 160.0 B, free 432.7 KB)
+Question: What is the estimated size of the block rdd_11",0,1,0.17142857142857143,0.8583313226699829
+What stage was task 13.0 completed in?,26.0,"Stage 26.0
+
+Context: Block broadcast_24_piece0 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: How many bytes are stored in broadcast_24_piece0?
+Answer",0,1,0.1621621621621622,0.858100414276123
+How many KB is broadcast_1_piece0 free?,318.6,,0,0,0.0,0.0
+How many bytes is Block rdd_21_3 free?,403.4 KB,"403.4
+
+Context: Block rdd_21_3 stored as bytes in memory (estimated size 194.0 B, free 403.4 KB)
+Question: What is the estimated size of Block rdd_21_3",0,1,0.2285714285714286,0.8737531304359436
+How many kb is broadcast_39 free?,868.3,"868.3
+
+Context: PacketResponder 2 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,1,0.18181818181818182,0.8498530983924866
+How many kb is rdd_30_3 free?,406.3,"406.3
+
+Context: Block rdd_30_2 stored as bytes in memory (estimated size 251.0 B, free 406.3 KB)
+Question: How many kb is rdd_30_2 free?
+Answer",0,1,0.17142857142857143,0.8648353219032288
+What is the ID for task 1.0 in stage 13.0?,542,"13.0
+
+Context",0,0,0.0,0.8352330923080444
+How many ms did it take to read the broadcast variable 23?,11,"11
+
+Context: Reading broadcast variable 21 took 11 ms
+Question:",0,1,0.18181818181818182,0.8483324646949768
+How many kb is broadcast_14_piece0 free?,392.3,"392.3
+
+Context: PacketResponder 2 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,1,0.18181818181818182,0.8501328825950623
+How many ms did it take to read the variable 28?,9,"9
+
+Context: Reading broadcast variable 30 took 9 ms
+Question: How",0,1,0.16666666666666669,0.8486090302467346
+What is the ID number for task 2.0 in stage 8.0?,349,"349
+
+Context:",0,1,0.6666666666666666,0.8821640610694885
+How many bytes is the block rdd_11_2 stored as?,199.0 B,"199.0
+
+Context: Block rdd_11_3 stored as bytes in memory (estimated size 199.0 B, free 432.6 KB)
+Question: How many bytes is the block rdd_11_3 stored",0,1,0.2222222222222222,0.8428658246994019
+How many kb is broadcast_8_piece0 free?,35.4,,0,0,0.0,0.0
+How many kb is broadcast_28 free?,419.6,435.4,0,0,0.28571428571428575,0.9740639328956604
+What is the ID number of task 4.0?,319,"319
+
+Context: Running task 4.0",0,1,0.2222222222222222,0.8562556505203247
+Is partition rdd_42_13 found?,not,"No, it is not found.
+
+Context: Partition rdd_42",0,1,0.13333333333333333,0.8024975061416626
+Is partition rdd_16_3 found?,not,"No, it is being computed
+
+Context: Partition rdd_16",0,0,0.0,0.8121795654296875
+How many kb is the block rdd_16_1 free?,387.4,,0,0,0.0,0.0
+Is partition rdd_42_27 found?,not,"No
+
+Context: Partition rdd_42_29 not found, computing it
+Question:",0,1,0.125,0.8245251178741455
+What is the estimated size of the block rdd_42_19?,920.0,"920.0 B
+
+Context: Block rdd_42_19 stored as bytes in memory (estimated size 920.0 B, free 819.9 KB)
+Question: What is the estimated size of the block rdd_42",0,1,0.21621621621621626,0.8576906323432922
+Is partition rdd_42_30 found?,not,"No
+
+Context: Partition rdd_42_30 not found, computing it
+Question:",0,1,0.125,0.8253926038742065
+How many ms did it take to read the broadcast variable 31?,8,"9
+
+Context: Reading broadcast variable 33 took 10 ms
+Question:",0,0,0.0,0.8498193621635437
+How long did it take to read broadcast variable 2?,16 ms,"19 milliseconds
+
+Context: Reading broadcast variable 0 took 17 ms
+Question:",0,0,0.11764705882352941,0.8686911463737488
+How many bytes is Block rdd_42_14 free?,816.6 KB,"816.6
+
+Context: PacketResponder 2 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,0,0.18181818181818182,0.826702356338501
+Is partition rdd_16_2 found?,not,"No
+
+Context: Partition rdd_16_4 not found, computing it
+Question:",0,1,0.125,0.8259392380714417
+How many ms did it take to read the variable 26?,10,"10
+
+Context: Reading broadcast variable 28 took 10 ms
+Question: How",0,1,0.16666666666666669,0.8474912643432617
+What is the ID for stage 20.0?,807,"807
+
+Context: 0",0,1,0.5714285714285715,0.8961978554725647
+Is partition rdd_42_37 found?,not,"rdd_42_37
+
+Context: Partition rdd_42_37 not",0,1,0.19999999999999998,0.7962006330490112
+How many kb is broadcast_40_piece0 free?,874.3,,0,0,0.0,0.0
+How many ms did it take to read the broadcast variable 22?,11,"12
+
+Context: Reading broadcast variable 20 took 13 ms
+Question:",0,0,0.0,0.8502585887908936
+What stage was the task 120.0 completed in?,24.0,"Stage 24.0
+
+Context: Block broadcast_24_piece0 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)
+Question: What is the estimated size of broadcast_24_piece0?
+Answer",0,1,0.1621621621621622,0.8553053736686707
+How many kb is broadcast_10_piece0 free?,329.6,,0,0,0.0,0.0
+How many kb is broadcast_40?,"KB,","873.1
+
+Context",0,0,0.0,0.8321986794471741
+How many kb is rdd_16_4 free?,386.4,"386.4
+
+Context: Block rdd_16_4 stored as bytes in memory (estimated size 263.0 B, free 386.4 KB)
+Question: How many b is rdd_16_4 free?
+Answer",0,1,0.2222222222222222,0.857867956161499
+Is partition rdd_42_17 found?,not,"No
+
+Context: Partition rdd_42_17 not found, computing it
+Question:",0,1,0.125,0.8240032196044922
+What stage was the task 25.0 completed in?,29.0,,0,0,0.0,0.0
+How many kb is the block rdd_26_4 free?,419.6,"419.6
+
+Context: Block rdd_26_5 stored as bytes in memory (estimated size 16.0 B, free 419.6 KB)
+Question: How many kb is the block rdd_26_5 free",0,1,0.2222222222222222,0.8545491695404053
+How long did it take to read broadcast variable 39?,716 ms,"716 ms
+
+Context: Reading broadcast variable 39 took 716 ms
+Question:",0,1,0.42857142857142855,0.872549831867218
+How many ms did it take to read broadcast variable 33?,9,"9
+
+Context: Reading broadcast variable 33 took 9 ms
+Question: How",0,1,0.16666666666666669,0.8498167991638184
+What is the ID number for task 84.0?,1141,"task
+
+Context",0,0,0.0,0.8432061076164246
+How large is the block rdd_42_29?,901.0 B,"901.0 B
+
+Context: Block rdd_42_29 stored as bytes in memory (estimated size 901.0 B, free 829.4 KB)
+Question: What is the name of the block rdd_42_",0,1,0.25641025641025644,0.8472612500190735
+How many bytes did the task 0.0 contain?,2099 bytes,,0,0,0.0,0.0
+How many bytes did the task 1.0 take?,2241 bytes,393,0,0,0.0,0.8355245590209961
+Is partition rdd_2_0 found?,not,"No
+
+Context: Partition rdd_2_0 not found, computing it
+Question:",0,1,0.125,0.8277474641799927
+How many kb is broadcast_32_piece0 free?,406.3,"406.3
+
+Context: PacketResponder 3 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,1,0.14634146341463414,0.845591127872467
+How many ms did it take to read the variable 30?,8,"8
+
+Context: Reading broadcast variable 32 took 8 ms
+Question: How",0,1,0.16666666666666669,0.8493970632553101
+How many bytes is rdd_42_37 free?,835.5 KB,"835.5
+
+Context: Block rdd_42_37 stored as bytes in memory (estimated size 939.0 B, free 835.5 KB)
+Question: How many bytes is rdd_42_37 free?
+Answer",0,1,0.25641025641025644,0.8694663047790527
+How many kb is broadcast_38_piece0 free?,844.0,"844.0
+
+Context: PacketResponder 2 for block blk_8229193803249955061 terminating
+Question: What is the name of the packet that is used to terminate a block blk_8229193803249955061?",0,1,0.18181818181818182,0.8524333238601685
+How many kb is broadcast_3_piece0?,free,318,0,0,0.0,0.9991672039031982
+What is the estimated size of the block rdd_21_1?,162.0,"162.0
+
+Context: Block rdd_21_2 stored as bytes in memory (estimated size 162.0 B, free 403.0 KB)
+Question: What is the estimated size of the block rdd_21_",0,1,0.18181818181818182,0.863792896270752
+How many ms did it take to read broadcast variable 10?,17,"8
+
+Context: Reading broadcast variable 12 took 16 ms
+Question: How",0,0,0.0,0.8489109873771667
+What is the estimated size of the block rdd_2_4?,890.0,"890.0 B
+
+Context: Block rdd_2_4 stored as bytes in memory (estimated size 890.0 B, free 323.8 KB)
+Question: What is the estimated size of the block rdd_2",0,1,0.2222222222222222,0.8570683002471924
+How many ms did it take to read the broadcast variable 36?,11,"broadcast
+
+Context: Reading broadcast variable 36 took 11 ms
+Question: How many ms did",0,1,0.14285714285714288,0.8502705097198486

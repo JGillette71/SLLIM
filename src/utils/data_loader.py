@@ -1,7 +1,7 @@
 import os
 import json
 from typing import Dict, List
-from logger import logger  # Import centralized logger
+from logger import logger 
 
 def consolidate_raw_data(raw_data_dir: str = "~/projects/SLLIM/data/raw", 
                          processed_data_dir: str = "~/projects/SLLIM/data/processed") -> None:
