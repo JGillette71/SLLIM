@@ -1,0 +1,14 @@
+{
+    "roberta-base": {
+        "F1": 0.036688724446161516,
+        "Exact Match": 0.0
+    },
+    "xlm-roberta-base": {
+        "F1": 0.022177306663472673,
+        "Exact Match": 0.0
+    },
+    "roberta-large": {
+        "F1": 0.04232366228413661,
+        "Exact Match": 0.0
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "roberta-base": {
+        "test_loss": 0.3365285396575928,
+        "test_runtime": 2.0048,
+        "test_samples_per_second": 126.197,
+        "test_steps_per_second": 31.923
+    },
+    "xlm-roberta-base": {
+        "test_loss": 0.310123456,
+        "test_runtime": 3.25,
+        "test_samples_per_second": 100.25,
+        "test_steps_per_second": 25.5
+    },
+    "roberta-large": {
+        "test_loss": 0.39201870560646057,
+        "test_runtime": 6.39,
+        "test_samples_per_second": 39.593,
+        "test_steps_per_second": 19.875
+    }
+}
