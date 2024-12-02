@@ -164,3 +164,4 @@ cython_debug/
 # project data too big for git
 data/raw/
 archive/kitsune.zip
+models/*
