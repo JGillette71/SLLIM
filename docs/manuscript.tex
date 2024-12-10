@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+\usepackage[review]{acl2023}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{inconsolata}
+
+\title{SLLIM: System Log Local Intelligent Model}
+
+\author{
+Jason Gillette \\
+University of Texas at San Antonio \\
+\texttt{jason.gillette@my.utsa.edu} 
+\And
+Nassos Galiopoulos \\
+University of Texas at San Antonio \\
+\texttt{nassos.galiopoulos@my.utsa.edu} 
+\And
+Carlos Cruzportillo \\
+University of Texas at San Antonio \\
+\texttt{carlos.cruzportillo@my.utsa.edu} 
+}
+
+\date{December 9, 2024}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+The growth of system-generated logs presents significant challenges in monitoring and security. Traditional static pattern recognition methods are often insufficient to effectively analyze the dynamic nature of unstructured logs. This study introduces the System Log Local Intelligent Model (SLLIM), a novel approach leveraging lightweight Large Language Models (LLMs) for real-time, domain-specific question answering in system log analysis. We evaluated two models, Llama-3.1-8B and Llama-3.2-1B, using the LogQA dataset. Both zero-shot and few-shot prompting techniques were employed to assess model performance across metrics such as Exact Match, Contains Match, Token-Based F1, and BERTScore. Findings indicate that the smaller Llama-3.2-1B model performs competitively with its larger counterpart, suggesting that lightweight models can effectively handle specialized tasks in resource-constrained environments. Notably, few-shot prompting led to performance degradation, highlighting the need for refined prompting strategies. This research underscores the potential of deploying efficient LLMs for system log analysis and outlines future directions, including integrating cybersecurity domain knowledge, enhancing contextual reasoning, and exploring fine-tuning for task-specific optimization.
+\end{abstract}
+
+\section{Introduction}
+In today’s digital age, the widespread adoption of internet-connected devices—ranging from IoT devices to mobile phones—has created an unprecedented volume of data. Enterprises, relying on complex systems, face a growing big data challenge in monitoring, managing, and securing system-generated logs. Logging is often a critical piece of software, allowing IT professionals to track system usage and identify anomalies. In securing those environments, it is crucial to have a robust system log analysis tool that can quickly and accurately identify anomalies, which may include potential threats. Traditional methods rely heavily on static pattern recognition techniques, which often fall short when faced with the dynamic nature of log data, especially in a micro-services environment where logs are aggregated from multiple pieces of software. To address this growing problem, we introduce a novel approach that examines lightweight LLMs for real-time system log analysis via domain-specific question-answering with a specific focus on balancing performance and computational efficiency.
+
+In our efforts to develop this approach, we established two research questions that guide this pursuit:
+\begin{enumerate}
+    \item How well can lightweight LLMs detect system issues and security threats from system logs?
+    \item How effectively can lightweight LLMs perform question answering compared to larger, more resource-intensive models?
+\end{enumerate}
+
+After a comprehensive literature review exploring these questions and adjacent research, we identified the publicly available \textit{LogQA} dataset, which offers 832 human-annotated question-answer pairs based on software logs from three common software packages \cite{huang2024}. A detailed description of this dataset is presented in the Data Analysis section.
+
+\section{Literature Review}
+The increasing complexity and size of system logs in the cybersecurity domain has made it challenging for human operators to derive insights quickly. Large language models (LLMs) offer a solution by automating the question-answering (QA) process, enabling rapid information retrieval and analysis. However, the constraints of edge environments, such as limited computational power, necessitate lightweight, efficient models that can be deployed locally.
+
+\subsection{Deploying LLMs on Edge Devices}
+The challenge of deploying LLMs on edge devices has driven significant research into adaptation techniques. In \citet{wang2024}, strategies like quantization and distillation are shown to reduce model size while preserving accuracy, particularly relevant for on-device analysis.
+
+\subsection{Question Answering on Unstructured Logs}
+\citet{huang2024gloss} present a pipeline for generating QA pairs for system logs, significantly influencing our approach. Their dataset's scale and evaluation strategies provide a foundation for effective QA solutions.
+
+\section{Data Analysis}
+The dataset used in this study originates from the \textit{LogQA} project \cite{huang2024}. It includes question-answer pairs generated from public logs like HDFS, OpenSSH, and Spark. Each QA pair comprises a \textit{question}, an \textit{answer}, and the corresponding \textit{context}.
+
+\begin{quote}
+\texttt{"question": "What did the user fail to enter on the port 42393 ssh2?"} \\
+\texttt{"answer": "password"} \\
+\texttt{"context": "message repeated 5 times: [ Failed password for root from 5.36.59.76 port 42393 ssh2]"}
+\end{quote}
+
+\section{Methodology}
+The experimental design evaluates the performance of lightweight models (\textit{Llama-3.2-1B}) compared to larger counterparts (\textit{Llama-3.1-8B}) in both zero-shot and few-shot configurations.
+
+\section{Results}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+Metric & Llama-3.1 ZS & Llama-3.2 ZS & Llama-3.1 FS & Llama-3.2 FS \\
+\midrule
+Exact Match & 0.00 & 0.02 & 0.01 & 0.02 \\
+Contains Match & 0.71 & 0.58 & 0.51 & 0.62 \\
+Token F1 & 0.16 & 0.22 & 0.16 & 0.20 \\
+BERTScore & 0.83 & 0.82 & 0.77 & 0.79 \\
+\bottomrule
+\end{tabular}
+\caption{Performance metrics for Llama models.}
+\end{table}
+
+\section{References}
+\bibliographystyle{acl_natbib}
+\bibliography{references}
+
+\end{document}llama2024
